@@ -1,4 +1,4 @@
-package com.spring.part2.lab1;
+package com.spring.part2.CollectionTypesInjection.lab1;
 
 import java.util.List;
 import java.util.Map;

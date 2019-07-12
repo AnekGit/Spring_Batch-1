@@ -8,7 +8,7 @@
 
     <bean id="aBean"    class="com.spring.tutorial.A"></bean>
 
-    <bean id = "cust" class ="com.spring.part2.labs.Customer">
+    <bean id = "cust" class ="com.spring.part2.CollectionTypesInjection.lab1.Customer">
 
         <!-- contructor args -->
         <constructor-arg value ="101"/>
@@ -84,12 +84,12 @@
 
     </bean>
 
-    <bean id = "add" class = "com.spring.part2.labs.Address">
+    <bean id = "add" class = "com.spring.part2.CollectionTypesInjection.lab1.Address">
         <constructor-arg value="bangalore"/>
         <constructor-arg value="karnataka"/>
       </bean>
 
-    <bean id ="acc1" class ="com.spring.part2.labs.Account">
+    <bean id ="acc1" class ="com.spring.part2.CollectionTypesInjection.lab1.Account">
 
         <property name="accNo" value="12345"/>
         <property name="accType" value="SavingBank"/>
@@ -99,7 +99,7 @@
     </bean>
 
 
-    <bean id ="acc2" class ="com.spring.part2.labs.Account">
+    <bean id ="acc2" class ="com.spring.part2.CollectionTypesInjection.lab1.Account">
 
         <property name="accNo" value="5678"/>
         <property name="accType" value="MutualFund"/>

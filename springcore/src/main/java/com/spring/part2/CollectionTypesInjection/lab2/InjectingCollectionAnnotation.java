@@ -1,6 +1,6 @@
-package com.spring.part2.lab2;
+package com.spring.part2.CollectionTypesInjection.lab2;
 
-import com.spring.part2.lab1.Customer;
+import com.spring.part2.CollectionTypesInjection.lab1.Customer;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
