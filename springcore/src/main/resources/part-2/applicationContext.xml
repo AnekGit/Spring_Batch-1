@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="aBean"    class="com.spring.tutorial.A"></bean>
+
+    <bean id = "cust" class ="com.spring.part2.labs.Customer">
+
+        <!-- contructor args -->
+        <constructor-arg value ="101"/>
+        <constructor-arg value ="Anek"/>
+        <constructor-arg value ="anek02@gmail.com"/>
+        <constructor-arg value = "7204368684"/>
+
+        <!-- setter injection -->
+
+        <property name = "emails">
+
+            <list>
+                <value>parvesh01@gmail.com</value>
+                <value>aparajeeta@outlook.com</value>
+            </list>
+
+
+        </property>
+
+        <property name ="phones">
+
+            <set>
+                <value>921304944</value>
+                <value>7204368684</value>
+            </set>
+
+        </property>
+
+        <property name ="refs">
+
+            <map>
+                <entry key="partitionColumn" value="owner_id"/>
+                <entry key="numPartition" value="2"/>
+                <entry key="lowerBound" value="1"/>
+                <entry key="upperBound" value="10000"/>
+
+            </map>
+
+        </property>
+
+
+        <property name ="properties">
+
+            <props>
+
+                <prop key="uat">application.uat.properties</prop>
+
+            </props>
+
+
+        </property>
+
+         <property name ="address" ref="add"/>
+
+     <property name ="accounts">
+
+         <list>
+
+             <ref bean="acc1"/>
+             <ref bean="acc2"/>
+
+
+         </list>
+
+
+     </property>
+
+
+
+
+
+
+
+    </bean>
+
+    <bean id = "add" class = "com.spring.part2.labs.Address">
+        <constructor-arg value="bangalore"/>
+        <constructor-arg value="karnataka"/>
+      </bean>
+
+    <bean id ="acc1" class ="com.spring.part2.labs.Account">
+
+        <property name="accNo" value="12345"/>
+        <property name="accType" value="SavingBank"/>
+        <property name="balance" value="567890.0"/>
+
+
+    </bean>
+
+
+    <bean id ="acc2" class ="com.spring.part2.labs.Account">
+
+        <property name="accNo" value="5678"/>
+        <property name="accType" value="MutualFund"/>
+        <property name="balance" value="567890.0"/>
+
+
+    </bean>
+
+
+
+
+
+</beans>
