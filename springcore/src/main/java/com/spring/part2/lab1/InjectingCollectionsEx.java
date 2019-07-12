@@ -1,4 +1,4 @@
-package com.spring.part2.labs;
+package com.spring.part2.lab1;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -1,4 +1,4 @@
-package com.spring.part2.labs;
+package com.spring.part2.lab1;
 
 class Account{
     private int accNo;
