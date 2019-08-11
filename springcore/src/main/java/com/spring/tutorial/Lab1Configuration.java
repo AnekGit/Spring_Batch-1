@@ -13,8 +13,8 @@ public class Lab1Configuration {
         return aobj;
     }
 
-    @Bean("helloBean")
-    public Hello hello(A aobj){
+    @Bean
+    public Hello hello11111111(A aobj){
         Hello hello = new Hello(aobj);
         return hello;
 

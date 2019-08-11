@@ -10,8 +10,13 @@ public class AutowireEx{
         System.out.println("Starting the Spring Container");
 
         ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
-        Shipment shipment = (Shipment) context.getBean("shipment");
+
+        /*
+         Shipment shipment = (Shipment) context.getBean("shipment");
         System.out.println(shipment);
+        System.out.println();
+        */
+
 
     }
 

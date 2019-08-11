@@ -13,6 +13,7 @@ public class Shipment {
     }
 
     public void setConsignment(Consignment consignment) {
+        System.out.println("Consignment setter of Shipment");
         this.consignment = consignment;
     }
 
@@ -21,6 +22,7 @@ public class Shipment {
     }
 
     public void setCarrier(Carrier carrier) {
+        System.out.println("carrier setter of Shipment");
         this.carrier = carrier;
     }
 

@@ -7,6 +7,10 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id="aBean"    class="com.spring.tutorial.A"></bean>
+    <bean id="aBean"    class="com.spring.tutorial.Hello">
+
+
+    </bean>
 <!--
     <bean id="employee"  class="com.howtodoinjava.spring.beans.Employee"></bean>
     <bean id="department"    class="com.howtodoinjava.spring.beans.Department"></bean>

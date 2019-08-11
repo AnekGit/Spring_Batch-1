@@ -6,9 +6,10 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="aBean"    class="com.spring.tutorial.A"></bean>
+ 
 
-    <bean id = "cust" class ="com.spring.part2.CollectionTypesInjection.lab1.Customer">
+    <bean name = "cust"
+          class ="com.spring.part2.CollectionTypesInjection.lab1.Customer">
 
         <!-- contructor args -->
         <constructor-arg value ="101"/>
@@ -43,6 +44,7 @@
                 <entry key="partitionColumn" value="owner_id"/>
                 <entry key="numPartition" value="2"/>
                 <entry key="lowerBound" value="1"/>
+
                 <entry key="upperBound" value="10000"/>
 
             </map>
@@ -55,6 +57,7 @@
             <props>
 
                 <prop key="uat">application.uat.properties</prop>
+                <prop key="dev">application.dev.properties</prop>
 
             </props>
 

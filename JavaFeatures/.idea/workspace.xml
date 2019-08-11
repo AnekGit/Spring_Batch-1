@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f7346b7-edd7-4020-aaa7-7a4825ab1dbb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/modules/FirstScala-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/modules/FirstScala.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab5/Carrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab5/Consignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab5/ConstructorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab5/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcore/src/main/resources/part-2/consApplicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/CollectionTypesInjection/lab1/InjectingCollectionsEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/CollectionTypesInjection/lab1/InjectingCollectionsEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/AutowireEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/AutowireEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/JavaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/Shipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/AutowireEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/AutowireEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/JavaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/Shipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/tutorial/Lab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/tutorial/Lab1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/tutorial/Lab1Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/tutorial/Lab1Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/src/main/resources/part-2/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/resources/part-2/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/CollectionTypesInjection/lab1/InjectingCollectionsEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/CollectionTypesInjection/lab1/InjectingCollectionsEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/AutowireEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/AutowireEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/JavaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/JavaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/Shipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/Shipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/AutowireEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/AutowireEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/JavaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/JavaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/Shipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/Shipment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/tutorial/Lab1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/tutorial/Lab1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/tutorial/Lab1Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/tutorial/Lab1Configuration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/part-2/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/part-2/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-35" />
+    <option name="width" value="1400" />
+    <option name="height" value="785" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="JavaFeatures" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="JavaFeatures" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f7346b7-edd7-4020-aaa7-7a4825ab1dbb" name="Default Changelist" comment="" />
+      <created>1565424741859</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565424741859</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="SBT Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

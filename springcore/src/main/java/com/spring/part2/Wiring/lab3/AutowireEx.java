@@ -11,7 +11,9 @@ public class AutowireEx{
 
         ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
         Shipment shipment = (Shipment) context.getBean("shipment");
-        System.out.println(shipment);
+        /*Carrier car = (Carrier)context.getBean("carrier");
+        System.out.println("carrier is :"+car);
+        */System.out.println(shipment);
 
     }
 

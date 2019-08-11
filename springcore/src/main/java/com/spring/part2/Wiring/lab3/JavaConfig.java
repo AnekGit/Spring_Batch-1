@@ -17,8 +17,8 @@ public class JavaConfig {
 
         return csm;
     }
-    @Bean("carrier")
-    public Carrier carrier(){
+    @Bean("carrier1")
+    public Carrier carrier1(){
         return new Carrier(101,"DHL");
     }
 
