@@ -1,6 +1,7 @@
 import org.omg.CORBA.LongLongSeqHelper;
 
 import java.sql.SQLOutput;
+import java.text.SimpleDateFormat;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalUnit;
@@ -63,10 +64,27 @@ public class DatePractice {
 
 
         LocalDate localDate1 = LocalDate.parse("2019-08-11");
-        System.out.println("localdate1 = "+ localDate1);
+        System.out.println("local_date1 = "+ localDate1);
 
-        String dateString = localDate1.format(DateTimeFormatter.ISO_DATE);
-        System.out.println("dateString = "+ dateString);
+        //String dateString = localDate1.format(DateTimeFormatter.ISO_DATE_TIME);     //exception
+        //System.out.println("date_String = "+ dateString);
+        //TemporalUnit
+        String date_String = localDate1.format(DateTimeFormatter.ISO_DATE);
+
+        System.out.println("date_String = "+ date_String);
+
+
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+
+        //OCA
+        LocalDate local_date_of =LocalDate.of(2019,8,11);
+                                 local_date_of.plusDays(2);
+        System.out.println("local_date_of = "+local_date_of);
+
+
+
+
+
 
 
 
