@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26ee9d38-b611-4a82-82bc-0de2dd7c70c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/Scala_Practice-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_common.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/all_about_scala/chapter2/stringinterpolation/Test/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/all_about_scala/chapter2/escape/Test.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Date_Time/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Date_Time/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/modules/Scala_Project-build.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/modules/Scala_Project.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/sbt.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/build.sbt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Project/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/project/build.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/project/target/active.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/project/target/config-classes/$14bfcc52fba33400db31$.class" beforeDir="false" />
@@ -84,7 +82,8 @@
       <change beforePath="$PROJECT_DIR$/../Scala_Project/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/project/target/streams/runtime/unmanagedJars/$global/streams/export" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scala_Project/src/main/scala/com/scala/practice/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Project/src/main/scala/com/allaboutscala/chapter2/stringinterpolation/com/allaboutscala/chapter2/stringinterpolation/Test.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Project/src/main/scala/com/allaboutscala/chapter2/stringinterpolation/stringinterpolation.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/target/.history" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/target/scala-2.12/resolution-cache/default/scala_project_2.12/0.1/resolved.xml.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Scala_Project/target/scala-2.12/resolution-cache/default/scala_project_2.12/0.1/resolved.xml.xml" beforeDir="false" />
@@ -295,11 +294,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/all_about_scala/chapter2/stringinterpolation/Test/Test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="107">
+              <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/all_about_scala/chapter2/escape/Test.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -322,6 +330,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/Test.scala" />
         <option value="$PROJECT_DIR$/run_common.bash" />
         <option value="$PROJECT_DIR$/src/main/scala/com/all_about_scala/chapter2/stringinterpolation/Test/Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/all_about_scala/chapter2/escape/Test.scala" />
       </list>
     </option>
   </component>
@@ -378,7 +387,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="chapter2" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="escape" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -389,7 +398,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565711676376" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565715477964" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.sbt" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -405,7 +414,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.all_about_scala.chapter2.escape.Test" />
+      <module name="Scala_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.all_about_scala.chapter2.escape.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.all_about_scala.chapter2.stringinterpolation.Test.Test" />
       <module name="Scala_Practice" />
@@ -462,6 +484,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -520,6 +543,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -531,14 +555,14 @@
       <window_info anchor="bottom" id="Build" weight="0.3286119" />
       <window_info anchor="bottom" id="SBT Console" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
-      <window_info anchor="bottom" id="Terminal" weight="0.009915014" />
+      <window_info anchor="bottom" id="Terminal" weight="0.42634562" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26345608" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28611898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,8 +600,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/all_about_scala/chapter2/stringinterpolation/Test/Test.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="107">
+          <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/all_about_scala/chapter2/escape/Test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
