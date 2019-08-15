@@ -61,7 +61,26 @@ object PatternMatching {
 
       }//match
 
-    }
+    } //for
+
+    // match with list of string
+
+    val list_string : List[String] = List("ANEK","Ganga","Nigam")
+
+    for (st <- list_string){
+
+      st match {
+
+        case st if st.charAt(0).equals('N') => {println (st.replace('N','n')) }
+        case "ANEK" => println("matched - ANEK")
+        case _ => println("default : - No Match found ")
+
+      }
+
+
+    } //for
+
+
 
 
 
