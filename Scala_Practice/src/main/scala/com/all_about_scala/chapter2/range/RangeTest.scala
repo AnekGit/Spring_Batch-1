@@ -6,7 +6,7 @@ package com.all_about_scala.chapter2.range
 
 object RangeTest {
 
-  def main(args: Array[String]): Unit = {
+  def main(args: Array[String]){
 
     var range1 = 1 to 10
     println(s"range is : $range1")
@@ -22,7 +22,7 @@ object RangeTest {
 
     lazy val charrange1 = for {i <- charRange if i.equals('a')} yield println(s" char $i")
 
-    lazy val iftest = if(range1.step == 2) println("two") else println("not 2")
+    val iftest = if(range1.step == 2) println("two") else println("not 2")
     println("after lazy operation ")
 
     // print(rangePrint)

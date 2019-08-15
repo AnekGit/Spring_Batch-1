@@ -81,6 +81,9 @@ public class DatePractice {
                                  local_date_of.plusDays(2);
         System.out.println("local_date_of = "+local_date_of);
 
+        float d = 2.5f;
+        System.out.println("d is "+d);
+
 
 
 

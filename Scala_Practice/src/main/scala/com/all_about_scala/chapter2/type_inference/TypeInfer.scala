@@ -8,7 +8,7 @@ object TypeInfer {
 
   def main(args: Array[String]): Unit = {
 
-    if (1 == 1)      {
+   lazy val re =  if (1 == 1)      {
       println("yes")
       println("no")     }
     else
