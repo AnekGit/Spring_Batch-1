@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MyAppApplication {
 
 	public static void main(String[] args) {
+
+
 		SpringApplication.run(MyAppApplication.class, args);
+		System.out.println("Here is my Spring boot app");
 	}
 
 }
