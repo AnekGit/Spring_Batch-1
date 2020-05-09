@@ -32,12 +32,12 @@ public class IntersectionEx {
 
       List<Customer> listOfCust1 = new ArrayList<>(5);
                      listOfCust1.add(new Customer(10,"Neha")) ;
-                     listOfCust1.add(new Customer(5,"Vicky")) ;
+                     listOfCust1.add(new Customer(50,"Anek")) ;
                      listOfCust1.add(new Customer(3,"Abhishek"));
 
       List<Customer> listOfCustomer2 = new ArrayList<>(2);
                      listOfCustomer2.add(new Customer(10,"Neha"));
-                     listOfCustomer2.add(new Customer(5,"Vicky"));
+                     listOfCustomer2.add(new Customer(50,"Anek"));
 
         System.out.println(" ************  Intersection of the customers  ************");
       List<Customer> custIntersection=
@@ -45,18 +45,17 @@ public class IntersectionEx {
 
         custIntersection.forEach(System.out::println);
 
-        custIntersection.sort(Comparator.comparing(Customer::getCust_id));
+        custIntersection.sort(Comparator.comparing(Customer::getCust_name));
 
-        System.out.println(comp.apply(new Customer(10,"Neha"),new Customer(22,"Neha"))) ;
-
-
+        //System.out.println(comp.apply(new Customer(10,"Neha"),new Customer(22,"Neha"))) ;
+        
         System.out.println("***********   After Sorting **************");
         custIntersection.forEach(System.out::println);
     }
-    static BiFunction<Customer,Customer,Integer> comp = (o1,o2) -> (int)o1.cust_id-o2.cust_id ;
+    static BiFunction<Customer,Customer,Integer> comp = (o1,o2) -> o1.cust_id-o2.cust_id ;
 }
 
-class Customer implements Comparable<Customer>{
+class Customer /*implements Comparable<Customer>*/{
     int cust_id ;
     String cust_name ;
     Customer(int cust_id ,String cust_name){
@@ -88,11 +87,11 @@ class Customer implements Comparable<Customer>{
         return Objects.hash(cust_id, cust_name);
     }
 
-    public int compareTo(Customer customer){
+   /* public int compareTo(Customer customer){
 
         return   this.cust_id - customer.cust_id;
 
-    }
+    }*/
     public String toString(){
         return "[ "+this.getClass().getSimpleName()+" : - cust_id :- "+cust_id+" cust_name :-"+cust_name +" ]";
     }

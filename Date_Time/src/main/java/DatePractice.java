@@ -25,6 +25,7 @@ public class DatePractice {
 
         List list = Arrays.asList(ZoneId.getAvailableZoneIds().toArray());
         //list.sort(e -> String::length);
+        //list.forEach(System.out::println);
 
         ZoneId zoneId = ZoneId.of("GMT");
         LocalDateTime localDateTime = LocalDateTime.now(zoneId);
@@ -93,22 +94,22 @@ public class DatePractice {
 
 
         
-/*
+
         LocalDate localDate = LocalDate.parse("2013-08-22");
 
         System.out.println("localDate is :- "+localDate);
 
-        Date date = new Date();
+        Date date1 = new Date();
         System.out.println("instant is :- "+date);
 
-        LocalDateTime localDate1 = LocalDateTime.ofInstant(date.toInstant(), ZoneId.systemDefault());
+        LocalDateTime localDate11 = LocalDateTime.ofInstant(date1.toInstant(), ZoneId.systemDefault());
 
-        LocalDateTime dateTimeZone = LocalDateTime.ofInstant(date.toInstant(),ZoneId.of("Europe/Paris"));
+        LocalDateTime dateTimeZone = LocalDateTime.ofInstant(date1.toInstant(),ZoneId.of("Europe/Paris"));
 
-        System.out.println("locatedate1 "+localDate1);
+        System.out.println("locatedate1 "+localDate11);
         System.out.println("dateTImeZone "+dateTimeZone);
 
-*/
+
 
 
     }

@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Fetch;
 
 import javax.persistence.*;
 
@@ -44,7 +45,10 @@ public class CustomerExpense {
     private String amount ;
 
 
-/*
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "fk_cust_id",referencedColumnName = "cust_id")
+    private Customer customer;
+
 
 
 
@@ -68,9 +72,19 @@ public class CustomerExpense {
         return amount;
     }
 
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
     public void setAmount(String amount) {
         this.amount = amount;
-    }*/
+    }
+
+
 
     @Override
     public String toString() {

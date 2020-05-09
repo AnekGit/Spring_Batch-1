@@ -90,7 +90,9 @@ object SparkEx {
       )
 
     )
-//    data.show()
+              data.glom().collect()
+    println("printitng count of List<Citizens>"+data.count)
+
     println("Listing databases ")
     spark.catalog.listDatabases().show()
 

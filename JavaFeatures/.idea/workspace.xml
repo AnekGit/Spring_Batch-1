@@ -2,44 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f7346b7-edd7-4020-aaa7-7a4825ab1dbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/modules/FirstScala-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/modules/FirstScala.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstScala/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab5/Carrier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab5/Consignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab5/ConstructorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab5/Shipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcore/src/main/resources/part-2/consApplicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/CollectionTypesInjection/lab1/InjectingCollectionsEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/CollectionTypesInjection/lab1/InjectingCollectionsEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/AutowireEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/AutowireEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/JavaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab3/Shipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/AutowireEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/AutowireEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/JavaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/part2/Wiring/lab4/Shipment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/tutorial/Lab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/tutorial/Lab1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/tutorial/Lab1Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/java/com/spring/tutorial/Lab1Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/src/main/resources/part-2/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/src/main/resources/part-2/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/CollectionTypesInjection/lab1/InjectingCollectionsEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/CollectionTypesInjection/lab1/InjectingCollectionsEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/AutowireEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/AutowireEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/JavaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/JavaConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/Shipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab3/Shipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/AutowireEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/AutowireEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/JavaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/JavaConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/Shipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/part2/Wiring/lab4/Shipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/tutorial/Lab1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/tutorial/Lab1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/com/spring/tutorial/Lab1Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/com/spring/tutorial/Lab1Configuration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/classes/part-2/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/classes/part-2/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../springcore/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Date_Time/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Date_Time/Programming_Practice/Programming_Practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Date_Time/Programming_Practice/src/com/programming/practice/IntersectionEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scala_Practice/.idea/modules/scala_practice_1230-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Scala_Practice/.idea/modules/scala_practice_1230.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Date_Time/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Date_Time/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Date_Time/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Date_Time/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Date_Time/Date_Time.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Date_Time/Java_Coding.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Date_Time/src/main/java/DatePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Date_Time/src/main/java/DatePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Date_Time/src/main/java/EnumEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Date_Time/src/main/java/EnumEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Date_Time/target/classes/DatePractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Date_Time/target/classes/DatePractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/.idea/dictionaries/Hp_user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/.idea/modules/Scala_Practice-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/.idea/modules/Scala_Practice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/run_common.bash" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/run_common.bash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scala_Practice/src/main/scala/com/all_about_scala/chapter2/tuples/TuplesEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Scala_Practice/src/main/scala/com/all_about_scala/chapter2/tuples/TuplesEx.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_2.12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_2.12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_2.12/src/main/resources/questions_tags_10K.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_2.12/src/main/resources/questions_tags_10K.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_2.12/src/main/scala/SparkDataSources.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_2.12/src/main/scala/SparkDataSources.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_2.12/src/main/scala/SparkEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_2.12/src/main/scala/SparkEx.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/SparkDataSources$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/SparkDataSources$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/SparkDataSources.class" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/SparkDataSources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/SparkEx$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/SparkEx$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/SparkSQLEx$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/SparkSQLEx$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/questions_tags_10K.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../scala_2.12/target/scala-2.12/classes/questions_tags_10K.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,9 +58,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaFeatures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaFeatures" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -144,18 +150,13 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="SBT Console" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -163,14 +164,19 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SBT Console" order="8" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="masterDetails">

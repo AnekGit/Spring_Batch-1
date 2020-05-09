@@ -20,7 +20,7 @@ object TuplesEx {
     println(tup_emp)
     println(tup_emp._1)
 
-    val t1 = Tuple2(1,"A1")
+    val t1 = (1,"A1")
     val t2 = Tuple2(2,"A2")
     val t3 = Tuple2(3,"A3")
 
@@ -32,14 +32,16 @@ object TuplesEx {
      t match {
 
        case (1,_) => println(s"Hey ${t._2}")
-       case s @ _ => println(s"default value is $s ")    // NOTE : s @ _ is for capturing default value provided
+       case s @ _ => println(s"default value is ${s._1} ")    // NOTE : s @ _ is for capturing default value provided
 
       } //match
 
 
-    }    //for
+    }    //
 
-
+    println("#################################")
+    val arr = Array(0,1,2,3)
+    println(arr)
 
 
 
