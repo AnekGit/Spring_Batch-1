@@ -2,7 +2,6 @@ package com.springboot.practice.MyAppPractice.repository;
 
 import com.springboot.practice.MyAppPractice.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -12,6 +11,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer,Long> {
     
-   // @Query("select c.cust_id ,c.cust_address,c.actv_flg from customer c")
-    //void findByCust_id(long l);
+  /*  @Query("select c.cust_id ,c.cust_address,c.actv_flg from Customer c ")
+    List<Customer> findByCust_id();*/
 }

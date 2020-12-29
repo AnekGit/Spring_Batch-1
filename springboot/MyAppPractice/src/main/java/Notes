@@ -1,0 +1,37 @@
+
+@Transient
+@Temporal
+@lob => @blob/@clob
+@NotFound
+
+There are two @Entity annotations
+
+1. @javax.persistent.Entity
+2. @org.hibernate.annotations.Entity(selectBeforeUpdate=true)
+
+       https://www.journaldev.com/3481/hibernate-session-merge-vs-update-save-saveorupdate-persist-example
+when an object is created only and not attached to session object then it is Transient object.
+when an object is attached to session then it becomes persistent object .
+
+#################   Object state while create ################
+//Transient
+UserDetails user = new UserDetails();
+user.setName("Anek")
+
+
+Session session = sf.openSession();
+
+//persistent
+session.save(user);
+
+session.close();
+
+//Detached
+user.setName("Vicky");
+
+#################   Object state while read operation ################
+
+
+session.update(obj);
+------------------
+moves the object back to persistent context

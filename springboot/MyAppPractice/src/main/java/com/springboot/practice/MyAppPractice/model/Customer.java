@@ -4,8 +4,13 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.CollectionId;
+import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -33,8 +38,50 @@ public class Customer{
     @Column(name = "actv_flg")
     private String actv_flg ;
 
+    @ElementCollection
+    @JoinTable(name="customer_cart",joinColumns = { @JoinColumn(name = "customer_id") })
+            /*
+            Note : -
+
+            why @JoinTable : -
+            =============================================================================
+            Since it's a collection table not a separate entity that defines
+            @Entity and @Table(name="some_name") on top of that so this annotation comes
+
+            Description : -
+            =============================================================================
+            Here name is the table name that will be created for this collection
+            and joinColumns is an array of primary key columns
+
+            Here collection table has ALREADY mapped the join field from the
+            wrapper table
+
+            Here  joinColumn a CUSTOM NAME for collection table of the join field of
+            wrapper table
+
+
+            */
+
+
+    Collection<Cart> carts = new ArrayList<>();
+
     @OneToMany(mappedBy = "customer")
     List<CustomerExpense> customerExpenses ;
+
+
+
+    public String getActv_flg() {
+        return actv_flg;
+    }
+
+    public Collection<Cart> getCarts() {
+        return carts;
+    }
+
+    public void setCarts(Collection<Cart> carts) {
+        this.carts = carts;
+    }
+
 
     //constructor
 
